@@ -1,0 +1,24 @@
+{
+  "name": "node-simple-server",
+  "version": "1.0.1",
+  "description": "This is simple NodeJS Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "serve": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "javascript"
+  ],
+  "author": "vitalyvitmens <otm_@tut.by>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.25",
+    "nodemon": "^3.0.1"
+  }
+}
